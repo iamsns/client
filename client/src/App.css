@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* home page css */
+
+.homepage{
+  height: 35.5rem;
+  border: 1px solid white;
+  background: #d0dce2;
+  background: linear-gradient(to right,#d7dfe4,  #f3f3f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.homepage_items{
+  margin: 16% auto;
+  text-align: center;
+  padding: 0%;
+  width: 60%;
+  height: 40%;
+}
+
+.home_heading{
+    font-family: serif;
+    font-weight: bold;
+    margin-top: 0rem;
+    padding-top: 0rem;
+}
+.home_welcome{
+  color: #0b7c7c;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0rem
+}
+/* signup page css */
+
+.signup-content{
+  border: 1px dotted gainsboro;
+  box-shadow: 1px 1px 2px 2px #eff1f5;
+  width: 60%;
+  margin: 4rem auto;
+  display: flex;
+   background-color: rgb(253, 251, 251);
+   border-radius: .5rem;
+   padding:2rem 0 2rem 3rem;
+}
+.signup-image{
+  width: 20rem;
+  margin: 3rem 3rem 0 3rem ;
+  text-align: center;
+  /* border: 1px solid rgb(156, 52, 52); */
+}
+.signup-image img{
+  height: 15rem;
+}
+
+.signin-content{
+  background-color: #fffafad2;
+  box-shadow: 1px 1px 2px 2px #eff1f5;
+  border-radius: .5rem;
+  width: 54%;
+  margin: 6rem auto;
+  padding: 1rem;
+  display: flex;
+  
+}
+.signin-image{
+  text-align: center;
+}
+.signin-image img{
+  border-radius: .3rem;
+  margin: 1rem;
+  width: 17rem;
+
+}
+.signup-image-link, .signin-image-link{
+  color: rgb(126, 96, 64);
+  text-decoration: none;
+}
+
+.signin-form{
+  margin: 1rem 2rem ;
+  /* border: 1px solid grey; */
+}
+.form-group{
+ border-bottom: 1px solid grey;
+  margin: 1rem auto;
+}
+.form-group i{
+  margin-right: .3rem;
+  font-size: 1.2rem;
+}
+.form-group input{
+  border-style: none;
+  border-radius: .3rem;
+}
+.form-submit{
+  color: whitesmoke;
+  padding: .3rem;
+  border-radius: .4rem;
+  border: none;
+  background-color: rgb(84, 197, 197);
+  width: 8rem;
+  
+}
